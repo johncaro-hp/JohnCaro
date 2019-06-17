@@ -1,0 +1,100 @@
+header nav{
+    display: flex;
+}
+
+header{
+    margin-top: 20px;
+}
+
+/* nav */
+        .top-nav{
+            /* text-align: right; */
+            /* margin-right: auto; */
+            /* display: inline-block; */
+            margin-left: auto;
+            
+        }
+        .list{
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            /* width: 70vw;     */
+        }
+        
+        .a{
+            margin:1px; 
+        }
+        
+        .div{
+            display: inline-block;
+        }
+        .footer-ul{
+            text-align: right;
+            display: inline-block;
+        }
+        .footer-list{
+            display: flex;
+            list-style: none;
+        }
+        
+        .top-a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        .top-a {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 30px;
+            font-size: 19px;
+            height: 40px;
+            line-height: 40px!;
+            vertical-align: middle;
+            background: #51587b;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            transition: .4s;
+          }
+        
+          .top-a:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            border: none;
+            border-left: solid 21px white;
+            border-bottom: solid 41px transparent;
+            z-index: 1;
+            transition: .4s;
+          }
+          
+          .top-a:after {
+            position: absolute;
+            content: '';
+            right: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            border: none;
+            border-left: solid 21px transparent;
+            border-bottom: solid 41px white;
+            z-index: 1;
+            transition: .4s;
+          }
+          
+          .top-a:hover:before, .a:hover:after {
+            border-left-width: 25px;
+          }
+          
+          .top-a:hover {
+            background: #2c3148;
+          }
+        
+/* nav */
+
+.news{
+    width: 90%;
+}
